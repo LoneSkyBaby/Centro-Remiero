@@ -1,10 +1,49 @@
+<!DOCTYPE html>
 <html>
   <head>
-  Prova
+    <title>Centro Sportivo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <p>
-    Prova
-    </p>
+    <header>
+      <h1>Centro Sportivo</h1>
+      <nav>
+        <ul>
+          <li><a href="#chi-siamo">Chi siamo</a></li>
+          <li><a href="#servizi">Servizi</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="chi-siamo">
+        <h2>Chi siamo</h2>
+        <p>Siamo un centro sportivo che offre una vasta gamma di attività per persone di tutte le età e livelli di abilità. Dalla yoga e il pilates al basket e il calcio, abbiamo qualcosa per tutti.</p>
+      </section>
+      <section id="servizi">
+        <h2>I nostri servizi</h2>
+        <ul>
+          <li>Lezioni di yoga</li>
+          <li>Lezioni di pilates</li>
+          <li>Noleggio campo da basket</li>
+          <li>Noleggio campo da calcio</li>
+        </ul>
+      </section>
+      <section id="contatti">
+        <h2>Contattaci</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="messaggio">Messaggio:</label>
+          <textarea id="messaggio" name="messaggio"></textarea>
+          <input type="submit" value="Invia">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Centro Sportivo</p>
+    </footer>
   </body>
 </html>
