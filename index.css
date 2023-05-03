@@ -1,66 +1,123 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   
+  /* Stile header */
   header {
-    background-color: rgba (255, 255, 255, 0.5);
-    color: #ffffff;
+    background-color: #202020;
+    color: #fff;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
   }
   
-  nav ul {
-    display: flex;
+  header h1 {
+    font-size: 30px;
+  }
+  
+  header nav ul {
     list-style: none;
+    display: flex;
   }
   
-  nav li {
-    margin-right: 20px;
+  header nav ul li {
+    margin: 0 10px;
   }
   
-  nav a {
-    color: #000000;
+  header nav ul li a {
+    color: #fff;
     text-decoration: none;
+    font-size: 18px;
   }
   
-  main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+  /* Stile sezione hero */
+  .hero {
+    background-image: url("hero-image.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   
-  section {
+  .hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
     margin-bottom: 40px;
   }
   
-  h2 {
-    margin-bottom: 20px;
-  }
-  
-  ul {
-    list-style: disc;
-    margin-left: 20px;
-  }
-  
-  form label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
+  .hero .btn {
+    background-color: #fff;
+    color: #202020;
+    padding: 15px 30px;
     border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
   }
   
-  form input[type="submit"] {
-    background-color: #333;
+  /* Stile sezione chi siamo */
+  .about {
+    background-color: #f0f0f0;
+    padding: 50px;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  /* Stile sezione attività */
+  .activities {
+    background-color: #fff;
+    padding: 50px;
+  }
+  
+  .activities h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .activities p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  /* Stile sezione contatti */
+  .contact {
+    background-color: #f0f0f0;
+    padding: 50px;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Stile footer */
+  footer {
+    background-color: #202020;
     color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-;}  
+    padding: 20px;
+    text-align: center;
+  }
+  
