@@ -1,0 +1,123 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Stile header */
+  header {
+    background-color: #202020;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 30px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Stile sezione hero */
+  .hero {
+    background-image: url("hero-image.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .hero .btn {
+    background-color: #fff;
+    color: #202020;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Stile sezione chi siamo */
+  .about {
+    background-color: #f0f0f0;
+    padding: 50px;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  /* Stile sezione attività */
+  .activities {
+    background-color: #fff;
+    padding: 50px;
+  }
+  
+  .activities h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .activities p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  /* Stile sezione contatti */
+  .contact {
+    background-color: #f0f0f0;
+    padding: 50px;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Stile footer */
+  footer {
+    background-color: #202020;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
