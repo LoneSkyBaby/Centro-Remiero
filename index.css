@@ -36,7 +36,7 @@
   
   /* Stile sezione hero */
   .hero {
-    background-image: url("hero-image.jpg");
+    background-image: url("https://lh3.googleusercontent.com/p/AF1QipNVQWXzcDxbYMEyDhMDqQaAEdxNaSE3RTItTd90=s680-w680-h510");
     background-size: cover;
     height: 600px;
     display: flex;
@@ -49,6 +49,8 @@
   .hero h2 {
     font-size: 48px;
     margin-bottom: 20px;
+    background-color:black
+    color:white
   }
   
   .hero p {
@@ -57,8 +59,8 @@
   }
   
   .hero .btn {
-    background-color: #fff;
-    color: #202020;
+    background-color: rgb(0, 0, 0);
+    color: hwb(0 100% 0%);
     padding: 15px 30px;
     border-radius: 5px;
     text-decoration: none;
